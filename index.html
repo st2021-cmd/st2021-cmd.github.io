@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sophie Torres | Series Project</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="home-images">
+  </div>
+  <div class="wrapper">
+    <nav id="opening-menu">
+      <a href="top.html">Top Drawer</a>
+      <a href="top-r.html">Middle Drawer</a>
+      <a href="bottom.html">Bottom Drawer</a>
+    </nav>
+    <div id="Home" class="container">
+      <svg id="Layer_1" data-name="Home" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4032 3024">
+        <title>Home</title>
+        <image width="4032" height="3024" xlink:href="files/Home.jpeg" />
+        <path class="cls-1 shots" onClick="goItem('shotsitem')" onmouseover="highlightStart('shots')" onmouseout="highlightStop('shots')"
+          d="M1120.22,1909.65q-28.18-8.91-56.83-19.35l-48.07-62.16a922.47,922.47,0,0,0-102.67,10.13c-49.93-4.44-96,6.78-139.43,28.83q-21.72,5.46-43.56,11.45l-3.55-35.13c49.67-28,98-31,150.25-11.13l12.12-10-16.28-63.18,7.49-13.3-26-55.69c34.51-36.87,94.07-44.68,134.44-27.1l-1.53,54.09,44,26-6,69h92Z" />
+        <path class="cls-1 shots" onClick="goItem('shotsitem')" onmouseover="highlightStart('shots')" onmouseout="highlightStop('shots')" d="M1224.63,2081.69l-51.48,95.61-76.72,21.81L1073.09,1981c27.57,1.74,54.77,4,81.42,6.94l56.88,32.23Z" />
+        <path class="cls-1 shots" onClick="goItem('shotsitem')" onmouseover="highlightStart('shots')" onmouseout="highlightStop('shots')"
+          d="M730,1981.44c-56.72-21.13-155.23-12.65-240.45,18.06L471,1863.73c35.65-6.12,63.54-3.63,82,9.29l-1.67,17.28c42.79-6.57,81.36-8.47,110.57,0l6.65,11.82-3.32,37.41,12.47-2.49-2.5-12.47c14.78-14.39,31.52-24,51.67-25.56Z" />
+        <path class="cls-1" onClick="goItem('whiteboarditem')"
+          d="M3828.94,732.79l-46.83,786.72-50,18.19-366.19,6.48c-3.25-5.48-7.16-10.42-11.77-13.78l107.23-188.8,296.25-349c-7.54-119.58-227.26-220.79-332.54-130.07l-132.28,381.27,49.28,63.55-7.78,14.26c7.07,16.63,22.13,24.39,42.79,25.94l10.38-14.27,37.61,6.49-104.13,177.9c-30.34-7.51-72.31-11-97.92,1.18-12.63,6-23.55,17.22-32.07,28.45l-24.27-27.77,21.22-726.08,28.8-48.51Z" />
+        <path class="cls-1" onClick="goItem('computeritem')"
+          d="M2625.06,2216.28l-25.4-10.16-973.79,10.16-152.42,345.48v12a13.8,13.8,0,0,0,11.13,13.52c119.09,23.58,1077.71,6.09,1207.08,3.61a21.67,21.67,0,0,0,19.75-13.69l10.18-25.64Zm-223.26,157.9-174.66-42.07,130-114.74,168.28,39.52Z" />
+        <path class="cls-1 sketchpad" onClick="goItem('sketchpaditem')" onmouseover="highlightStart('sketchpad')" onmouseout="highlightStop('sketchpad')" d="M835.07,2465.39l-1.8.65a191,191,0,0,0-86.25,62.6L247.3,2672.49,333.91,3024H0V2752.81l679.23-279.29c11.87-4.36,23.8-9.26,35.7-14.68l60.16-24.74Z" />
+        <polygon class="cls-1 sketchpad" onClick="goItem('sketchpaditem')" onmouseover="highlightStart('sketchpad')" onmouseout="highlightStop('sketchpad')" points="1508.13 2816.55 1508.13 2873.92 1271 3024 1020.4 3024 1171.57 2979.73 1158.82 2913.44 1010.47 2695.82 1014.6 2694.86 1069.3 2587.6 1508.13 2816.55" />
+        <path class="cls-1 tea" onClick="goItem('teaitem')" onmouseover="highlightStart('tea')" onmouseout="highlightStop('tea')" d="M1106.48,2293l-90.75,21.59L999.27,2141.4l-27.65-290.93a269.35,269.35,0,0,0-59-12.2,922.47,922.47,0,0,1,102.67-10.13l48.07,62.16,9.7,90.7,23.34,218.11Z" />
+        <path class="cls-1 tea" onClick="goItem('teaitem')" onmouseover="highlightStart('tea')" onmouseout="highlightStop('tea')" d="M756.55,1876.16l3.92,123.34c-7.82-7.47-18.18-13.47-30.52-18.06L726.84,1899l-.73-19.49,3.55-1q21.84-6,43.56-11.45Q764.82,1871.36,756.55,1876.16Z" />
+        <path class="cls-1 monitor" onClick="goItem('monitoritem')" d="M3175.85,313.3l-42.59,1177.54c-31.15-29.75-207.49-57.12-173.44,136.93H1091.58L991.17,395.46Z" />
+        <path class="cls-1 mini-sketchpad" onClick="goItem('mini-sketchpaditem')"
+          d="M1171.57,2979.73,1020.4,3024H333.91L247.3,2672.49,747,2528.64c-47.59,61-49.78,135.74-49.78,135.74L451.51,2831.13V2868l-16.68,25.45-47.39,16.67v43l-53.53,40.37,55.29,21.94,38.61-49.15,76.35-62.21c48.59-49.22,108-92.71,176.39-131.42l329.92-76.83,148.35,217.62Z" />
+        <path class="cls-1 rabbit" onClick="goItem('rabbititem')"
+          d="M3814,2201.38c-10.49,20.23-27.54,45.16-42.42,48.21s-106.62,5.19-120.5-2.9-36-19.28-36-19.28h-13.14s-15.06,69.46-14.63,86.82-6.36,54.17-30.68,74.18c-42.22,34.74-148.1,8.27-180.28-19.28-6.1-5.23-7.71-27-7.71-27-44.19,19.4-86.49,33.42-125.33,37.59,0,0-31.36,47.76-120.51,27s-184.13-128.22-184.13-128.22-43.94,33.12-81,14.46c-41.72-21-61.7-115.43-61.7-126.29s14.56-15.61,21.21-11.57,25.06,25.06,25.06,25.06c15.19-17.91,31.67-23,48.5-24.52a167.51,167.51,0,0,1-11.57-31.34c-27.75-105.57,34.47-248.68,89.59-304.32,7.35-25.13-8.11-41.7-10.83-58.22s1.92-134,1.92-134c-34.05-194,142.29-166.68,173.44-136.93s37.7,89.69,37.7,89.69a187.44,187.44,0,0,1,20-33.25c8.52-11.23,19.44-22.44,32.07-28.45,25.61-12.19,67.58-8.69,97.92-1.18h0l33.15,12.74c4.61,3.36,8.52,8.3,11.77,13.78,9.26,15.55,13.29,35.39,13.29,35.39s44.91-11.73,114.73-7.71,161,69.41,161,69.41c28.25.78,83.37,45,80,94.47,10.54,11.69,80.15,164.94,85.8,205.35S3839,2153.24,3814,2201.38Z" />
+        <polygon class="cls-1 calendar" onclick="goItem('calendaritem')" points="2056.03 2065.55 1393.85 2206.12 1385.87 2045.83 1384.99 2028.11 1379.46 1916.94 1379.45 1916.94 1365.06 1627.77 2000.14 1627.77 2056.03 2065.55" />
+        <path class="cls-1 mug" onClick="goItem('mugitem')"
+          d="M796,2412.73a517.06,517.06,0,0,1-81.1,46.11l-35.7,14.68c-112.74,41.46-219.65,35-235.46-26.92.64-8.59.78-18.46.51-29.34-2.93-114.74-52.1-341.15-46.23-356.79,6.42-17.11,13.86-33,91.45-61,85.22-30.71,183.73-39.19,240.45-18.06,12.34,4.59,22.7,10.59,30.52,18.06v.08c8.92,52,23.77,248.33,31.13,350.5C794.33,2387.84,796,2412.73,796,2412.73Z" />
+        <path class="cls-1 redbull" onClick="goItem('redbullitem')"
+          d="M1020.4,2363.84c-40.71,74.23-185.82,79.09-224.37,36l-4.42-49.75c-7.36-102.17-22.21-298.54-31.13-350.5v-.08l-3.92-123.34q8.26-4.79,16.67-9.06c43.42-22,89.5-33.27,139.43-28.83a269.35,269.35,0,0,1,59,12.2l27.64,290.93Z" />
+        <path class="cls-1 mask" onClick="goItem('maskitem')"
+          d="M1280,2492.67l-7,17.25-34.23-8.77h-32.47l-64,12.1v24.21L1086.94,2553l-17.64,34.58-54.7,107.26-4.13,1-329.92,76.83c-68.41,38.71-127.8,82.2-176.39,131.42l-76.35,62.21-38.61,49.15-55.29-21.94,53.53-40.37v-43l47.39-16.67L451.51,2868v-36.86l245.73-166.75s2.19-74.78,49.78-135.74a191,191,0,0,1,86.25-62.6l1.8-.65c131.17-47.18,276.4.65,276.4.65l100,14.92,13.17-7L1244,2487.1Z" />
+        <path class="cls-1 books" onclick="goItem('bookitem')"
+          d="M2968.73,1820c-55.12,55.64-117.34,198.75-89.59,304.32h-615l-28-94.34-8.93-98.16,24.23-7.65-6.38-96.89,30.6-5.1V1707.43H2245v-54.82l12.75-8.92v-15.92h702.08s-4.64,117.49-1.92,134S2976.08,1794.86,2968.73,1820Z" />
+        <polygon class="cls-1 prox" onClick="goItem('proxitem')" points="2525.46 2256.89 2401.8 2374.18 2227.14 2332.11 2357.18 2217.37 2525.46 2256.89" />
+        <path class="cls-1 nitro" onClick="goItem('nitroitem')"
+          d="M398.05,2060.47c6.42-17.11,13.86-33,91.45-61L471,1863.73l-17-124.08S421.5,1706,413.38,1677s94-114.88,18.56-140.41-112.55-15.09-112.55-15.09l-10.45-38.29-66.14-4.64v-22L89.62,1471.6l-9.28,18.56L18.84,1512v31.54H0V2379L16.52,2458c99.91,40.74,231.18,41.6,427.75-40.61v-.08C441.35,2302.52,392.18,2076.11,398.05,2060.47ZM317.58,1690.6C300.13,1661.51,296.74,1552,296.74,1552s122.64,0,134.27,19.87S385.44,1646,384,1674.6s17,47.51,17,47.51l-20.36,11.14S335,1719.68,317.58,1690.6Z" />
+        <path class="cls-1 brush" onClick="goItem('brushitem')" d="M1385.87,2045.83c-67.68-31.73-146.72-48.49-231.36-57.89-26.65-3-53.85-5.2-81.42-6.94l-9.7-90.7q28.65,10.42,56.83,19.35c71.24,22.54,140.18,37.63,206.2,43.32l53-36,5.54,111.17Z" />
+        <path class="cls-1 lamp" onClick="goItem('lampitem')"
+          d="M3757.61,992.58l-296.25,349-107.23,188.8c-5.88-4.28-18.07-9-33.15-12.74h0l104.13-177.9-37.61-6.49-10.38,14.27c-20.66-1.55-35.72-9.31-42.79-25.94l7.78-14.26-49.28-63.55,132.28-381.27C3530.35,771.79,3750.07,873,3757.61,992.58Z" />
+        <path class="cls-1 iPad" onClick="goItem('iPaditem')" d="M2935.2,2622.4,3118.47,3024H4032V2596.22l-20.14-12.53a74.73,74.73,0,0,0-41.16-11.28c-149,3.26-996,21.82-1011.56,22.42C2942,2595.5,2935.2,2622.4,2935.2,2622.4Z" />
+      </svg>
+    </div>
+  </div>
+    <div id="bookitem" class="item">
+      <div class="item-show">
+        <img src="files/Home/books.png" alt="a stack of books">
+          <p>Currently I have a stack of mostly thesis-related books with a couple of extra thrown in.
+            I'm writing on Google Street View as a medium and how two artists, Jon Rafman and Michael Wolf,
+            use it in their own practices. Becuase of this I have a lot of books on the history of map making
+            (Cartography by Matthew Edney, Time for Mapping edited by Lammes et al.), some stuff on digital art (
+            Evil Media by Fuller and Goffey, Digital Uncanny by Ravetto, The Immersive Internet edited by Tiegland and Power),
+            I was originally going to talk about creepypastas so I got some books on that (Slender Man is Coming by Blank and McNeill),
+            and then I got some other books (The Art of Gathering by Parker which Laurel gave us and Mug Meals by Cheney because
+            I'm basically cooking with microwave these days).</p>
+        </div>
+      <div class="return" onclick="goBack('bookitem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="calendaritem" class="item">
+      <div class="item-show">
+      <img src="files/Home/calendar.png" alt="a watercolor calendar on one piece of paper that I made">
+      <p>
+        I made this during that weird week before we started school when everyone was moving in. I meant to use it
+        as a way to encourage me to work out. I had lost maybe 10 - 15 lbs before the pandemic and was really healthy and
+        working out everyday and eating well and I felt so good... Then I came back to school and lost all incentive and gained
+        it all back and now I'm obese again (I mean this very literally in the medical-diagnosis-because-doctors way). The
+        stars represent days I've worked out.<br>
+        Another thing that kinda sucked about moving in was that it was right before my boyfriend's birthday. I'm kind of
+        worried about him because he's home alone right now and he's a hyper-extroverted person so... idk. Also it was our anniversary soon after
+        too, but it was fine. We facetimed and watched anime so it was something at least?
+      </p>
+      <div class="return" onclick="goBack('calendaritem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+      </div>
+    <div id="computeritem" class="item">
+      <div class="item-show">
+      <img src="files/Home/computer.png" alt="my computer, it has a lot of stickers">
+      <p>
+        I kind of feel like I cheated with my stickers? The last laptop I had had so many stickers that I collected throughout the years. But this
+        one... I bought a lot on redbubble. I don't know why it feels like cheating... but I like the stickers so what does it matter? Also they are
+        representative of who I am and the experiences I've had... they just didn't necessarily come into my posession during those experiences... maybe
+        that's why it feels like cheating.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('computeritem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="brushitem" class="item">
+      <div class="item-show">
+      <img src="files/Home/hairbrush.png" alt="my hairbrush">
+      <p>
+        I have a shit load of hair right now. I decided not to cut it until the pandemic ended. I decided this last year. I regret this decission
+        but I am too stuborn. My hair is down to the waist of my jeans now and it's heavy... really really heavy.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('brushitem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="iPaditem" class="item">
+      <div class="item-show">
+      <img src="files/Home/iPad.png" alt="my ipad">
+      <p>
+        I added some stickers to my iPad, but it looks super bland still. Even though
+        my iPad is basically the most important tool I have in my possession right now
+        it's just not very pretty. I use it all the time to draw, my VIS advisors last year
+        weren't thrilled with that. My VIS advisors this year aren't thrilled with it either. I
+        kind of caved in and moved to paper and charcoal. It's kind of dumb because if I'm going
+        to do digital art it should be this year, right?
+      </p>
+      </div>
+      <div class="return" onclick="goBack('iPaditem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="lampitem" class="item">
+      <div class="item-show">
+      <img src="files/Home/lamp.png" alt="a boring white lamp">
+      <p>
+        It's just a lamp. It's funny, I have it pointed at my white wall because
+        it lights up more of the room that way. Otherwise it's too bright. I should probably
+        sell it or give it away this year when I leave...
+      </p>
+    </div>
+      <div class="return" onclick="goBack('lampitem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="maskitem" class="item">
+      <div class="item-show">
+      <img src="files/Home/mask.png" alt="a dirty face mask">
+      <p>
+        Okay I promise the only reason it's dirty is because of charcoal. I probably shouldn't
+        wear my light-colored masks to my studio when I do art because after one session they look like this.
+        I need to wash it really badly AGAIN. I feel like I have to wash it everyday.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('maskitem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="monitoritem" class="item">
+      <div class="item-show">
+      <img src="files/Home/monitor.png" alt="my monitor">
+      <p>
+        It's just my monitor. I watch anime on it sometimes with my boyfriend (via zoom, he's in the city right now.)
+        To be honest I'm not a huge fan of anime, but I guess I've started to like it because of him. He's a Japanese Studies major at Columbia
+        so he can get a little... annoying about anime. Sometimes I just want to be lazy on put on dubs so I can watch while drawing,
+        he thinks that subs are bad. He's also fluent in Japanese so it's not like subtitles are a thing for him. I don't mind subtitles in
+        shows, I just can't draw to them.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('monitoritem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="mugitem" class="item">
+      <div class="item-show">
+      <img src="files/Home/mug.png" alt="A ceramic mug featuring Goofy in the style of old disney animations">
+      <p>
+        I got this as a 'gift' in white elephant during Thanksgiving. My aunt put this mug in the pile. Apparently this is my uncle's mug and
+        he was not aware that Rachel had taken it. He wants it back but nah, it's mine now. Mwahahaha. It's honestly my favorite mug though, although
+        I think part of the reason for that is because I know my uncle wants it back. It's a little evil but my family's sense of humor is a little evil.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('mugitem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="nitroitem" class="item">
+      <div class="item-show">
+      <img src="files/Home/nitro.png" alt="A nitro coldbrew maker">
+      <p>
+        I got this for Christmas in 2020. It's a nito-coldbrew maker. It's honestly the coolest thing
+        I own. The instructions aren't great, if followed it makes super weak coffee, but I have saved so much money with this
+        thing.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('nitroitem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="proxitem" class="item">
+      <div class="item-show">
+      <img src="files/Home/prox.png" alt="my prox">
+      <p>
+        I thought I lost my first prox, so I got a new one moving to campus this year. I found my old one, now I have two.
+        I had the chance to change my photo, my hair is not <i>that</i> red to the point that it's somehow neon. But I kind of
+        wanted to keep the old photo? It feels wrong to have a prox photo that looks good.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('proxitem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="rabbititem" class="item">
+      <div class="item-show">
+      <img src="files/Home/rabbit.png" alt="a white stuffed rabbit with a brown mustache">
+      <p>
+        His name is butthole. I got him when I was twelve. I thought I was hilarious. To be fair he does have a literal, sewn on butthole.
+        I got it from Kid Robot, this store in SoHo (for those who don't know it's a neighborhood in lower manhattan that's mainly shopping).
+        It was this weird, over-priced collectable toy store that everyone at my school was obsessed with. It was insanely popular for awhile.
+        It closed in 2016 or something like that, maybe earlier.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('rabbititem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="redbullitem" class="item">
+      <div class="item-show">
+      <img src="files/Home/redbull.png" alt="coconut redbull">
+      <p>
+        I never drank redbull or really any energy drink (besides coffee) until I came to Princeton.
+        Even then, I never drank them outside of reading period or finals. Now I drink them at least once a
+        week because of my thesis. The only one I like the taste of is the coconut one which always has so
+        many more cans available than the other flavors so I wonder if everyone else hates them?
+      </p>
+    </div>
+      <div class="return" onclick="goBack('redbullitem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="shotsitem" class="item">
+      <div class="item-show">
+      <img src="files/Home/shots.png" alt="A tray filled with shot glasses">
+      <p>
+        In highschool my friends, boyfriend, and brother all thought it was hilarious to buy me shotglasses. Mostly
+        because my dad hated it. I drank less than all of them but I still had an absurdly large collection. It has...
+        come in use at college.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('shotsitem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="sketchpaditem" class="item">
+      <div class="item-show">
+      <img src="files/Home/sketchpad.png" alt="A sketchpad">
+      <p>
+        I got this from my drawing class that I'm taking this semester. It's come in use for my visual arts thesis
+        too this year. I chart down some ideas, but I mainly use it for class.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('sketchpaditem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="mini-sketchpaditem" class="item">
+      <div class="item-show">
+      <img src="files/Home/small-sketchpad.png" alt="a small sketchpad with a drawing on it">
+      <p>
+        This is the sketchbook I use for collecting ideas for my visual arts thesis. I carry it around with me
+        more because it's smaller, and there's something nice about being able to fill the entire page easily because it's
+        so small. This was an idea I had for a piece, I have some notes about texture and the types of refrences I'm using, mainly
+        focusing on anatomy and underwater creatures.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('mini-sketchpaditem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="teaitem" class="item">
+      <div class="item-show">
+      <img src="files/Home/tea.png" alt="English Breakfast Tea">
+      <p>
+        I used to hate tea. Now, I stand tea. Mainly, I use the tea to make bubble tea.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('teaitem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+    <div id="whiteboarditem" class="item">
+      <div class="item-show">
+      <img src="files/Home/white-board.png" alt="a white board with a schedule on it">
+      <p>
+        This was a schedule I made for myself in early March I think? I did not get those 15 pages done.
+      </p>
+    </div>
+      <div class="return" onclick="goBack('whiteboarditem')">
+        <span class="closebtn">Return</span>
+      </div>
+    </div>
+</body>
+
+</html>
